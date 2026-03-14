@@ -1,16 +1,27 @@
-# React + Vite
+# Guía de Acceso a la Justicia Gratuita
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web interactiva para ayudar a los ciudadanos a determinar su elegibilidad para la asistencia jurídica gratuita en España.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ✅ **Evaluación de Elegibilidad**: Basada en la Ley 1/1996 (IPREM) y colectivos vulnerables (Violencia de género, trata, terrorismo).
+- ✅ **Documentación Dinámica**: Genera una lista de requisitos según el perfil del usuario (RD 141/2021).
+- ✅ **Soporte Regional (Galicia)**: Inyección de información específica para las Comisiones de Galicia (D. 269/2008).
+- ✅ **Roadmap de Procedimiento**: Guía paso a paso sobre plazos y silencios administrativos.
+- ✅ **Diseño Premium**: Interfaz moderna con Glassmorphism y animaciones.
 
-## React Compiler
+## Tecnologías
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Lucide React](https://lucide.dev/) (Iconos)
 
-## Expanding the ESLint configuration
+## Instalación y Uso
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clonar el repositorio.
+2. Instalar dependencias: `npm install`
+3. Ejecutar en desarrollo: `npm run dev`
+4. Construir para producción: `npm run build`
+
+---
+**Aviso Legal**: Esta herramienta es puramente informativa. La resolución definitiva siempre depende de las correspondientes Comisiones de Asistencia Jurídica Gratuita.
